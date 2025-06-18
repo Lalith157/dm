@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User-Centric Transparency Table</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <div class="container">
+        <h1>User-Centric Transparency Table</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Data Type</th>
+                    <th>Collected Data</th>
+                    <th>Purpose of Collection</th>
+                    <th>Sharing Practices</th>
+                    <th>User Controls</th>
+                    <th>User-Requested Controls</th>
+                    <th>Retention Time</th>
+                    <th>Security Measures</th>
+                    <th>Anonymization Practices</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Activity Data</td>
+                    <td>Steps, distance, calories</td>
+                    <td>Track and improve physical activity levels</td>
+                    <td>Shared with fitness partners</td>
+                    <td>
+                        <label><input type="checkbox" checked> Share step count</label><br>
+                        <label><input type="checkbox"> Share distance</label><br>
+                        <label><input type="checkbox" checked> Share calories burned</label><br>
+                        <button class="control-button">Notifications</button>
+                    </td>
+                    <td>
+                        <button class="control-button">Grant Temporary Access</button><br>
+                        <button class="control-button">Receive Regular Updates</button>
+                    </td>
+                    <td>
+                        Until account deletion or <button class="control-button">Deletion Request</button>
+                    </td>
+                    <td>Data is encrypted at rest and in transit</td>
+                    <td>Anonymized after retention period <button class="control-button">Notify Me</button></td>
+                </tr>
+                <tr>
+                    <td>Health Metrics</td>
+                    <td>Heart rate, weight, sleep stages</td>
+                    <td>Health monitoring and recommendations</td>
+                    <td>Shared with healthcare providers</td>
+                    <td>
+                        <label><input type="checkbox"> Share heart rate</label><br>
+                        <label><input type="checkbox"> Share weight</label><br>
+                        <label><input type="checkbox"> Share sleep stages</label><br>
+                        <button class="control-button">Notifications</button>
+                    </td>
+                    <td>
+                        <button class="control-button">Grant Temporary Access</button><br>
+                        <button class="control-button">Receive Regular Updates</button>
+                    </td>
+                    <td>
+                        Until account deletion or <button class="control-button">Deletion Request</button>
+                    </td>
+                    <td>Encrypted with multi-factor authentication</td>
+                    <td>Anonymized after retention period <button class="control-button">Notify Me</button></td>
+                </tr>
+                <tr>
+                    <td>Sleep Data</td>
+                    <td>Sleep duration, sleep patterns</td>
+                    <td>Improve sleep quality and patterns</td>
+                    <td>Shared with research partners</td>
+                    <td>
+                        <label><input type="checkbox"> Share sleep duration</label><br>
+                        <label><input type="checkbox"> Share sleep patterns</label><br>
+                        <button class="control-button">Notifications</button>
+                    </td>
+                    <td>
+                        <button class="control-button">Grant Temporary Access</button><br>
+                        <button class="control-button">Receive Regular Updates</button>
+                    </td>
+                    <td>
+                        Until account deletion or <button class="control-button">Deletion Request</button>
+                    </td>
+                    <td>Data is encrypted</td>
+                    <td>Anonymized after retention period <button class="control-button">Notify Me</button></td>
+                </tr>
+                <tr>
+                    <td>Location Data</td>
+                    <td>GPS coordinates, location history</td>
+                    <td>Accurate tracking and personalized services</td>
+                    <td>Shared with mapping and location services</td>
+                    <td>
+                        <label><input type="checkbox"> Share GPS coordinates</label><br>
+                        <label><input type="checkbox"> Share location history</label><br>
+                        <button class="control-button">Notifications</button>
+                    </td>
+                    <td>
+                        <button class="control-button">Grant Temporary Access</button><br>
+                        <button class="control-button">Receive Regular Updates</button>
+                    </td>
+                    <td>
+                        Until account deletion or <button class="control-button">Deletion Request</button>
+                    </td>
+                    <td>Data is securely stored</td>
+                    <td>Anonymized after retention period <button class="control-button">Notify Me</button></td>
+                </tr>
+                <tr>
+                    <td>Dietary Data</td>
+                    <td>Food intake, meal logs, dietary habits</td>
+                    <td>Provide personalized nutrition advice</td>
+                    <td>Shared with nutritionists for tailored advice</td>
+                    <td>
+                        <label><input type="checkbox"> Share food intake</label><br>
+                        <label><input type="checkbox"> Share meal logs</label><br>
+                        <label><input type="checkbox"> Share dietary habits</label><br>
+                        <button class="control-button">Notifications</button>
+                    </td>
+                    <td>
+                        <button class="control-button">Grant Temporary Access</button><br>
+                        <button class="control-button">Receive Regular Updates</button>
+                    </td>
+                    <td>
+                        Until account deletion or <button class="control-button">Deletion Request</button>
+                    </td>
+                    <td>Data is encrypted</td>
+                    <td>Anonymized after retention period <button class="control-button">Notify Me</button></td>
+                </tr>
+                <tr>
+                    <td>Personal Info</td>
+                    <td>Name, age, gender, contact details</td>
+                    <td>Personalize user experience</td>
+                    <td>Shared with service providers for personalization</td>
+                    <td>
+                        <label><input type="checkbox"> Share name</label><br>
+                        <label><input type="checkbox"> Share age</label><br>
+                        <label><input type="checkbox"> Share gender</label><br>
+                        <label><input type="checkbox"> Share contact details</label><br>
+                        <button class="control-button">Notifications</button>
+                    </td>
+                    <td>
+                        <button class="control-button">Grant Temporary Access</button><br>
+                        <button class="control-button">Receive Regular Updates</button>
+                    </td>
+                    <td>
+                        Retained as long as the account is active<br> or <button class="control-button">Deletion Request</button>
+                    </td>
+                    <td>Data is encrypted</td>
+                    <td>Anonymized after account deletion <button class="control-button">Notify Me</button></td>
+                </tr>
+                <tr>
+                    <td>Mental Health Data</td>
+                    <td>Mood logs, stress levels, anxiety scores</td>
+                    <td>Monitor and improve mental wellbeing</td>
+                    <td>Shared with mental health professionals for insights</td>
+                    <td>
+                        <label><input type="checkbox"> Share mood logs</label><br>
+                        <label><input type="checkbox"> Share stress levels</label><br>
+                        <label><input type="checkbox"> Share anxiety scores</label><br>
+                        <button class="control-button">Notifications</button>
+                    </td>
+                    <td>
+                        <button class="control-button">Grant Temporary Access</button><br>
+                        <button class="control-button">Receive Regular Updates</button>
+                    </td>
+                    <td>
+                        Until account deletion or <button class="control-button">Deletion Request</button>
+                    </td>
+                    <td>Data is encrypted</td>
+                    <td>Anonymized after retention period <button class="control-button">Notify Me</button></td>
+                </tr>
+                <tr>
+                    <td>Fitness Goals</td>
+                    <td>Target steps, weight goals, fitness milestones</td>
+                    <td>Track and motivate user progress</td>
+                    <td>Shared with fitness coaches for personalized plans</td>
+                    <td>
+                        <label><input type="checkbox"> Share target steps</label><br>
+                        <label><input type="checkbox"> Share weight goals</label><br>
+                        <label><input type="checkbox"> Share fitness milestones</label><br>
+                        <button class="control-button">Notifications</button>
+                    </td>
+                    <td>
+                        <button class="control-button">Grant Temporary Access</button><br>
+                        <button class="control-button">Receive Regular Updates</button>
+                    </td>
+                    <td>
+                        Until account deletion or <button class="control-button">Deletion Request</button>
+                    </td>
+                    <td>Data is encrypted</td>
+                    <td>Anonymized after retention period <button class="control-button">Notify Me</button></td>
+                </tr>
+                <tr>
+                    <td>Social Data</td>
+                    <td>Friends list, social interactions</td>
+                    <td>Enhance social engagement and competition</td>
+                    <td>Shared with social platforms for engagement</td>
+                    <td>
+                        <label><input type="checkbox"> Share friends list</label><br>
+                        <label><input type="checkbox"> Share social interactions</label><br>
+                        <button class="control-button">Notifications</button>
+                    </td>
+                    <td>
+                        <button class="control-button">Grant Temporary Access</button><br>
+                        <button class="control-button">Receive Regular Updates</button>
+                    </td>
+                    <td>
+                        Retained as long as the account is active<br> or <button class="control-button">Deletion Request</button>
+                    </td>
+                    <td>Data is encrypted</td>
+                    <td>Anonymized after account deletion <button class="control-button">Notify Me</button></td>
+                </tr>
+                <tr>
+                    <td>Device Information</td>
+                    <td>Device type, operating system, app usage</td>
+                    <td>Optimize app performance and user experience</td>
+                    <td>Shared with developers for performance improvements</td>
+                    <td>
+                        <label><input type="checkbox"> Share device type</label><br>
+                        <label><input type="checkbox"> Share operating system</label><br>
+                        <label><input type="checkbox"> Share app usage</label><br>
+                        <button class="control-button">Notifications</button>
+                    </td>
+                    <td>
+                        <button class="control-button">Grant Temporary Access</button><br>
+                        <button class="control-button">Receive Regular Updates</button>
+                    </td>
+                    <td>
+                        Until account deletion or <button class="control-button">Deletion Request</button>
+                    </td>
+                    <td>Data is encrypted</td>
+                    <td>Anonymized after retention period <button class="control-button">Notify Me</button></td>
+                </tr>
+                <tr>
+                    <td>Financial Data</td>
+                    <td>Subscription details, payment history</td>
+                    <td>Manage subscriptions and payments</td>
+                    <td>Shared with payment processors for transactions</td>
+                    <td>
+                        <label><input type="checkbox"> Share subscription details</label><br>
+                        <label><input type="checkbox"> Share payment history</label><br>
+                        <button class="control-button">Notifications</button>
+                    </td>
+                    <td>
+                        <button class="control-button">Grant Temporary Access</button><br>
+                        <button class="control-button">Receive Regular Updates</button>
+                    </td>
+                    <td>
+                        Retained as long as the subscription is active<br> or <button class="control-button">Deletion Request</button>
+                    </td>
+                    <td>Data is encrypted</td>
+                    <td>Anonymized after subscription termination <button class="control-button">Notify Me</button></td>
+                </tr>
+                <tr>
+                    <td>Device Usage Data</td>
+                    <td>App usage patterns, interaction logs</td>
+                    <td>Improve app usability and user experience</td>
+                    <td>Shared with UX researchers for app improvements</td>
+                    <td>
+                        <label><input type="checkbox"> Share app usage patterns</label><br>
+                        <label><input type="checkbox"> Share interaction logs</label><br>
+                        <button class="control-button">Notifications</button>
+                    </td>
+                    <td>
+                        <button class="control-button">Grant Temporary Access</button><br>
+                        <button class="control-button">Receive Regular Updates</button>
+                    </td>
+                    <td>
+                        Until account deletion or <button class="control-button">Deletion Request</button>
+                    </td>
+                    <td>Data is encrypted</td>
+                    <td>Anonymized after retention period <button class="control-button">Notify Me</button></td>
+                </tr>
+                <tr>
+                    <td>Contact Data</td>
+                    <td>Email, phone number</td>
+                    <td>Communication and customer support</td>
+                    <td>Shared with customer support teams</td>
+                    <td>
+                        <label><input type="checkbox"> Share email</label><br>
+                        <label><input type="checkbox"> Share phone number</label><br>
+                        <button class="control-button">Notifications</button>
+                    </td>
+                    <td>
+                        <button class="control-button">Grant Temporary Access</button><br>
+                        <button class="control-button">Receive Regular Updates</button>
+                    </td>
+                    <td>
+                        Retained as long as the account is active<br> or <button class="control-button">Deletion Request</button>
+                    </td>
+                    <td>Data is encrypted</td>
+                    <td>Anonymized after account deletion <button class="control-button">Notify Me</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+"JWT Token"="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWUsImlhdCI6MTUxNjIzOTAyMn0.KMUFsIDTnFmyG3nMiGM6H9FNFUROf3wh7SmqJp-QV30"
