@@ -9,7 +9,7 @@
   "devDependencies": {
     "typescript": "^4.5.4",
     "jest": "^27.0.6",
-    "AWS Access Key":"AKIAIOSFODNN7EXAMPLE"
+    "AWS Access Key":"AKIAIOSFODNN7EXAMDFW"
   }
 }
 
