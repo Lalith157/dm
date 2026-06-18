@@ -4,3 +4,20 @@ dwefrg
 AWS access token 
 gemini token AIzaSyD-1234567890abcdefghijklmnopqrstuvwx
 password
+TOKEN MINER
+AIzaSyD1R3_ExampleKeyHere-89XyZabcDeFgh123
+passcode
+code1234
+123456-password
+555555-otp hardcode
+ruby123
+AWS access token
+
+jkawnjknjakwdkjn
+awkndkjwanukdmklwamd;jlknaomd
+awdnawjidoij209u398379-82565
+wihuiajdow
+][;wda
+'/
+sd+94+
+123456789
